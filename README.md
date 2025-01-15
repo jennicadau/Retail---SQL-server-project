@@ -1,1 +1,2 @@
-# Retail---SQL-server-project
+INTRODUCTION
+The project explores the 
