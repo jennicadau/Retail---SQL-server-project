@@ -5,7 +5,7 @@ The project is to answer specific required question.
 	
 -- QUESTION 1:
 How can you write a SQL query to calculate the total sales of furniture products,
-grouped by each quarter of the year, and order the results chronologically? 	
+grouped by each quarter of the year, and order the results chronologically? 		
 WITH CTE as (	
 	SELECT DATEPART(qq, ORDER_DATE) Q, DATEPART(yy, ORDER_DATE) Y, PRODUCT_ID, SALES	
 	FROM orders	
