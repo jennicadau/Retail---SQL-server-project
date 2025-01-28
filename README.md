@@ -74,6 +74,7 @@ How can you create a report that displays each employee's performance across dif
 showing not only the total profit per category but also what percentage of 
 their total profit each category represents, with the results ordered by the 
 percentage in descending order for each employee?	
+
 	WITH CTE AS (
 		SELECT ID_EMPLOYEE, ROUND(sum(PROFIT),2) e_profit
 		FROM orders 
